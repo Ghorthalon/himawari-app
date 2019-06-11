@@ -1,0 +1,32 @@
+{
+    "name": "himawari-app",
+    "version": "0.0.1",
+    "description": "Frontend for the Himawari voice chat app",
+    "main": "index.js",
+    "scripts": {
+        "build": "parcel build ./src/index.html -d ./dist/ --target=browser",
+        "dev": "parcel dev ./src/index.html -d ./dist/ --target=browser"
+    },
+    "keywords": [
+        "Himawari",
+        "voice",
+        "chat",
+        "anonymous"
+    ],
+    "author": "TalonTheDragon",
+    "license": "MIT",
+    "dependencies": {
+        "peerjs": "^1.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "sdp-transform": "^2.8.0",
+        "socket.io-client": "^2.2.0",
+        "sono": "^2.1.6",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-react": "^6.24.1",
+        "parcel-bundler": "^1.12.3"
+    }
+}

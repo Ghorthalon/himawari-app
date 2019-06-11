@@ -1,0 +1,14 @@
+{
+    host: 'examplehost.com',
+    port: 1234,
+    secure: true,
+    path: '/path/to/peerjs',
+    realm: 'examplehost.com',
+    debug: 1,
+    config: {
+        iceServers: [
+            {urls: 'stun:examplehost.com:3478'},
+            {urls: 'turn:examplehost.com:3478', credential: 'examplecred', username: 'exampleuser'}
+        ]
+    }
+}
