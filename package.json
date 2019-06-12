@@ -27,6 +27,10 @@
     "devDependencies": {
         "babel-core": "^6.26.3",
         "babel-preset-react": "^6.24.1",
-        "parcel-bundler": "^1.12.3"
+        "chai": "^4.2.0",
+        "enzyme": "^3.10.0",
+        "mocha": "^6.1.4",
+        "parcel-bundler": "^1.12.3",
+        "sinon": "^7.3.2"
     }
 }
