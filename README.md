@@ -1,7 +1,7 @@
 # Himawari
 ## WebRTC voice calls that just work
 
-Himawari is a small app written in Node.JS and React that let's you make quick voice calls using your browser. The main instance is running at [himawari.ml](https://himawari.ml/).
+Himawari is a small app written in Node.JS and React that let's you make quick voice calls using your browser.
 
 ## Motivation
 
@@ -10,13 +10,13 @@ I tried several WebRTC apps, yet none of them seemed to work well with the calls
 
 You can simpy go to the URL and append a random room name. For example
 ```
-https://himawari.ml/test/
+https://himawari-domain.example.com/test/
 ```
 would create a room called test if nobody had done so, or if it already existed simply join me in the conference. This is the same as entering `test` in the room name box on the main page.
 
 ## How to run
 
-The main instance is always running at [himawari.ml](https://himawari.ml/) which you may use if you wish. Himawari operates on afull mesh network, so no voice data goes through the server if it's not absolutely necessary. One instance where it might is you being behind a symmetric NAT or other firewall which will make a direct connection impossible. However, WebRTC specifications require the communications to be very firmly encrypted, meaning your data is safe.
+Himawari operates on afull mesh network, so no voice data goes through the server if it's not absolutely necessary. One instance where it might is you being behind a symmetric NAT or other firewall which will make a direct connection impossible. However, WebRTC specifications require the communications to be very firmly encrypted, meaning your data is safe.
 
 ### I want to host my own instance
 
